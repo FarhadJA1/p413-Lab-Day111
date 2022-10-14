@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(255, 0, 102));
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-area {
+    border: transparent;    
+    width: 35%;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.login-area .login-header {
+    text-align: center;
+    font-size: 35px;
+}
+.login-area-switch .btn{
+    width: 45%;
+    height: 35px;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight:200;
+}
+.login-area-switch .login-area-switch-login{
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(255, 0, 102));
+    margin-left: 22px;
+    color: white;
+    
+}
+.login-area-switch .login-area-switch-signup:hover{
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(255, 0, 102));
+    color: white;
+}
+.input{
+    margin-top: 23px;
+    width: 89%;
+    height: 35px;
+    margin-left: 22px;    
+    border-radius: 3px;
+    border-color: rgb(197, 197, 197);
+    border-width: 0.5px;
+}
+.forgot-link-area{
+    margin-left: 22px;
+    margin-top: 23px;
+}
+ .forgot-link{
+    color: darkorchid;
+    text-decoration: none;
+    font-size: 20px;
+}
+.forgot-link:hover{
+    color: rgb(114, 40, 151);
+}
+.submit-area{
+    margin-left: 22px;
+    margin-top: 23px;
+}
+.submit-area .submit-btn{
+    font-size: 20px;
+    width: 94%;
+    height: 35px;
+    background-image: linear-gradient(to right, rgb(230, 0, 255), rgb(255, 0, 102));
+    color: white;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.form-footer{
+    text-align: center;
+    margin-top: 23px;
+}
+.login-elements-area{
+    
+}
